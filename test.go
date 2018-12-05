@@ -13,7 +13,7 @@ func Hi(name, lang string) (string, error) {
 	case "pt":
 		return fmt.Sprintf("Oi, %s!", name), nil
 	case "gn":
-		return fmt.Sprintf("SUP, %s", name), nil
+		return fmt.Sprintf("Sup, %s", name), nil
 	case "es":
 		return fmt.Sprintf("¡Hola, %s!", name), nil
 	case "fr":
