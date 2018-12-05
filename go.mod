@@ -1,1 +1,1 @@
-module github.com/hathbanger/modtest
+module github.com/hathbanger/modtest/v2
