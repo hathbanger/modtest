@@ -6,7 +6,7 @@ import (
 )
 
 // Hi returns a friendly greeting in language lang
-func Hi(name, lastName, lang string) (string, error) {
+func Hi(name, lastName string, lang string) (string, error) {
 	switch lang {
 	case "en":
 		return fmt.Sprintf("Hi, %s! Or should I say: %v?", name, lastName), nil
